@@ -1083,6 +1083,12 @@ Also see the Debugging section in this doc.
 - [Incident Management Resources](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=505044), Carnegie Mellon University
 - [Sterile flight deck rule](https://en.wikipedia.org/wiki/Sterile_flight_deck_rule), Wikipedia
 - [Shamir Secret Sharing It’s 3am.](https://max.levch.in/post/724289457144070144/shamir-secret-sharing-its-3am-paul-the-head-of)
+- [Site Reliability Engineering and the Art of Improvisation](https://thenewstack.io/site-reliability-engineering-and-the-art-of-improvisation/) has lots of good training ideas
+  - Walkthroughs of observability toolsets
+  - Decision requirements table building
+  - Team knowledge elicitation
+  - Asking the question, “Why do we have on-call?”
+  - Spin the Wheel of Expertise!
 
 Alerting:
 
@@ -1104,7 +1110,6 @@ Alerting:
 - Google's SRE book, [Postmortem chapter](https://landing.google.com/sre/workbook/chapters/postmortem-culture/) is excellent and includes many examples.
 - [Human error models and management](https://app.box.com/s/7z35l09amvr1vwxouh2s)
   - High reliability organisations — which have less than their fair share of accidents — recognise that human variability is a force to harness in averting errors, but they work hard to focus that variability and are constantly preoccupied with the possibility of failure
-
 
 > "Let’s plan for a future where we’re all as stupid as we are today."
 >
@@ -1350,7 +1355,6 @@ Richard Feynman's Learning Strategy:
   - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
   - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 - [Everything you need to know about DNS](https://www.nslookup.io/learning/)
-- [Load Balancing](https://samwho.dev/load-balancing/): a visual exploration of load balancing algos
 
 ### Observability (monitoring, logging, exception handling)
 
@@ -1370,6 +1374,7 @@ Richard Feynman's Learning Strategy:
     - A standard logging format is good enough
 - [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 - [The Audit Log Wall of Shame](https://audit-logs.tax/): list of vendors that don’t prioritize high-quality, widely-available audit logs for security and operations teams.
+- [Guide on Structured Logs](https://signoz.io/blog/structured-logs/)
 
 #### Error/exception handling
 
@@ -1860,6 +1865,9 @@ Articles:
 
 - BFF (backend for frontend)
   - [Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
+- Circuit breaker
+- [Rate limiter algorithms](https://smudge.ai/blog/ratelimit-algorithms) (and their [implementation](https://github.com/upstash/ratelimit-js/blob/main/src/lua-scripts/single.ts))
+- [Load Balancing](https://samwho.dev/load-balancing/): a visual exploration of load balancing algos
 
 #### Microservices/splitting a monolith
 
